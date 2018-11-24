@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1035</width>
+    <height>686</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="automat_name_layout">
+     <item>
+      <widget class="QLabel" name="automata_name">
+       <property name="font">
+        <font>
+         <family>MS Sans Serif</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="midLineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>1011</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="alphabet_layout">
+     <item>
+      <widget class="QLabel" name="alphabet">
+       <property name="font">
+        <font>
+         <family>MS Sans Serif</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>40</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="label_alphabet_layout">
+     <item>
+      <widget class="QLabel" name="alphabet_label">
+       <property name="font">
+        <font>
+         <family>MS Sans Serif</family>
+         <pointsize>16</pointsize>
+         <italic>false</italic>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>Алфавит</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>170</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="states_label_layout">
+     <item>
+      <widget class="QLabel" name="states_label">
+       <property name="font">
+        <font>
+         <family>MS Sans Serif</family>
+         <pointsize>16</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Состояния</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>1011</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="states_layout"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="transition_label_layout">
+     <item>
+      <widget class="QLabel" name="transition_label">
+       <property name="font">
+        <font>
+         <family>MS Sans Serif</family>
+         <pointsize>16</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Таблица переходов</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>340</y>
+      <width>1011</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+   <widget class="QPushButton" name="start_vizualization">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>600</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Sans Serif</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Визуализировать</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_8">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>510</y>
+      <width>471</width>
+      <height>73</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="word_input_layout">
+     <item>
+      <widget class="QPlainTextEdit" name="word_input">
+       <property name="font">
+        <font>
+         <family>MS Sans Serif</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1035</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="file_top_menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="openfile_top_menu"/>
+   </widget>
+   <widget class="QMenu" name="create_top_menu">
+    <property name="title">
+     <string>Создать</string>
+    </property>
+    <addaction name="create_DFA"/>
+    <addaction name="create_FA"/>
+   </widget>
+   <addaction name="file_top_menu"/>
+   <addaction name="create_top_menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="openfile_top_menu">
+   <property name="text">
+    <string>Открыть файл</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+    </font>
+   </property>
+  </action>
+  <action name="create_DFA">
+   <property name="text">
+    <string>Конечный детерминированный автомат</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+    </font>
+   </property>
+  </action>
+  <action name="create_FA">
+   <property name="text">
+    <string>Конечный автомат</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1033</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="open_automata">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>160</y>
+      <width>361</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Sans Serif</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Открыть существующий автомат</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="create_DFA_button">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>260</y>
+      <width>361</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Sans Serif</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Создать конечный автомат</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="create_FA_button">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>360</y>
+      <width>361</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Sans Serif</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Создать конечный детерминированный автомат</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1033</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="file_top_menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="openfile_top_menu"/>
+   </widget>
+   <widget class="QMenu" name="create_top_menu">
+    <property name="title">
+     <string>Создать</string>
+    </property>
+    <addaction name="create_DFA"/>
+    <addaction name="create_FA"/>
+   </widget>
+   <addaction name="file_top_menu"/>
+   <addaction name="create_top_menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="openfile_top_menu">
+   <property name="text">
+    <string>Открыть файл</string>
+   </property>
+  </action>
+  <action name="create_DFA">
+   <property name="text">
+    <string>Конечный детерминированный автомат</string>
+   </property>
+  </action>
+  <action name="create_FA">
+   <property name="text">
+    <string>Конечный автомат</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
